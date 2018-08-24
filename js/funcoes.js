@@ -22,3 +22,7 @@ function ocultarElemento () {
 function elementoOculto () {
 	document.getElementById("demo").style.display="block";
 }
+
+function calcular () {
+	document.getElementById("demo").innerHTML = 5 + 5;
+}
