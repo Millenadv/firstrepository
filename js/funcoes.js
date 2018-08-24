@@ -13,3 +13,12 @@ function trocaFonte () {
 function fonteTroca () {
    document.getElementById("demo").style.fontSize="16px";
 }
+
+function ocultarElemento () {
+	document.getElementById("demo").style.display="none";
+
+}
+
+function elementoOculto () {
+	document.getElementById("demo").style.display="block";
+}
